@@ -13,6 +13,8 @@ Open your .env file and change the database name (DB_DATABASE) to whatever you h
 
 - Run php artisan key:generate
 - Run php artisan migrate
+- Run migrations:
+    php artisan migrate
 - Run php artisan serve
 - Go to http://localhost:8000/
 
